@@ -1,0 +1,191 @@
+/* font syles */
+
+
+/* shared styles */
+.btn{
+    align-content: center;
+}
+.btn-color{
+    background-color: #E02C6D;
+}
+.btn-font{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 0 10px 24px;
+}
+.right-arrow{
+    width: 16px;
+    height: 14px;
+    padding: auto;
+}
+.btn{
+    padding-left: 900px;
+    text-align: right;
+}
+.join-btn{
+    width: 24px;
+    height: 24px;
+}
+/* shared font color */
+.gray-color{
+    color: #3A3A3A;
+}
+
+
+/* nav styles */
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 145px;
+}
+.nav-menu{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.search{
+    width: 19px;
+    height: 19px;
+}
+.cart{
+    width: 20px;
+    height: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* .anchor-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 463px;
+    height: 36px;
+} */
+
+/* jouney influencer */
+.journey-influencer{
+    width: 582px;
+    height: 270px;
+    text-align: left;
+}
+.banner-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.banner-title-description{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.btn-probook{
+    border-radius: 41px;
+    border-style: none;
+    width: 195px;
+    height: 44px;
+    padding: 10px 8px 10px 24px ;
+}
+
+/* main camera  */
+.main-camera-container{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat:round;
+    width: 475px;
+    height: 475px;
+}
+.main-camera{
+    width: 440px;
+    height: 414px;
+}
+.first-banner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+/* logos */
+.logo-container{
+    width: 1110px;
+    height: 110px;
+    margin: 0 165px 100px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* main page */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.collection-container{
+    max-width: 1047px;
+    margin: 0 auto;
+}
+.product-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.product-card{
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    padding: 17px 14px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product-img{
+    width: 300;
+    height: 256px;
+    padding: 14px 16px;
+    border-radius: 5px;
+    
+}
+
+/* product card color */
+.p-color{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #18191F;
+}
+.p-p-color{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}
+.rating{
+    font-size: 1.14rem;
+    font-weight: 700;
+    color: #5E6366;
+}
+.p-descirption{
+    font-size: 1.14rem;
+    font-weight: 700;
+    color: #787885;
+}
+.see-more{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 50px;
+    color: rgba(224, 44, 109, 0.87);
+}
